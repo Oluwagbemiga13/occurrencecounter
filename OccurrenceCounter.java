@@ -1,8 +1,5 @@
 /*
  *  @ Danile Rakovský
-$RequestHeader set AuditDate expr=%{TIME_YEAR}-%{TIME_MON}-%{TIME_DAY}
-$RequestHeader set AuditDateTime expr=%{TIME}
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package occurrencecounter;
 import java.util.HashMap;
@@ -42,18 +39,7 @@ public class OccurrenceCounter {
         System.out.println(charactersMap);
         return charactersMap;
     }
-    
-    /*public static void closeProgram(){
-    Scanner scanner = new Scanner(System.in);
-    System.out.println("Press any key to exit.");
-    String end = scanner.nextLine();
-    scanner.close();
-    }*/
 
-    /**
-     * @param args the command line arguments
-     * @throws java.lang.InterruptedException
-     */
     public static void main(String[] args) throws InterruptedException {
         // TODO code application logic here
         
