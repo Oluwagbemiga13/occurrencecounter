@@ -44,9 +44,9 @@ public class OccurrenceCounter {
         // TODO code application logic here
         
     count(scan());
-    System.out.println("Close window to exit program.");
     
     // Idk how to wait in console so I just call .wait on object to keep it open.
+    System.out.println("Close window to exit program.");
     OccurrenceCounter o = new OccurrenceCounter();
     synchronized (o) {
         o.wait();
