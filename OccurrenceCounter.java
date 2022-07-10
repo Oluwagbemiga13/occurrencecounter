@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 public class OccurrenceCounter {
     
-    // Method for scaning input by user.
+    // Method for scaning input from user.
     public static String scan(){
     Scanner input = new Scanner(System.in);
         System.out.println("Enter text: ");
